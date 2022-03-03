@@ -1,0 +1,757 @@
+{
+    "OTA_HotelAvailRS": {
+        "RoomStays": {
+            "xmlns": "http://www.opentravel.org/OTA/2003/05",
+            "RoomStay": [
+                {
+                    "RPH": "907",
+                    "RoomTypes": {
+                        "RoomType": [
+                            {
+                                "NumberOfUnits": "1",
+                                "RoomTypeCode": "33623",
+                                "RoomID": "33623",
+                                "Occupancy": {
+                                    "MinOccupancy": "1",
+                                    "MaxOccupancy": "3"
+                                },
+                                "RoomDescription": {
+                                    "Text": [
+                                        "Single"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "RatePlans": {
+                        "RatePlan": [
+                            {
+                                "RatePlanCode": "DEFAULT",
+                                "RatePlanName": "Default Rate Plan",
+                                "RatePlanInclusions": {
+                                    "TaxInclusive": "true",
+                                    "RatePlanInclusionDesciption": {
+                                        "TaxInclusive": "true",
+                                        "Text": [
+                                            "All Taxes Are Included In Rates"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "RoomRates": {
+                        "RoomRate": [
+                            {
+                                "NumberOfUnits": "99",
+                                "BookingCode": "33623-20714-10519",
+                                "RoomTypeCode": "33623",
+                                "RoomID": "33623",
+                                "RatePlanCode": "DEFAULT",
+                                "RatePlanID": "20714",
+                                "AvailabilityStatus": "AvailableForSale",
+                                "PromotionCode": "10519",
+                                "Rates": {
+                                    "Rate": [
+                                        {
+                                            "EffectiveDate": "2022-11-03",
+                                            "ExpireDate": "2022-11-03",
+                                            "RateTimeUnit": "Day",
+                                            "ChargeType": "1",
+                                            "MinLOS": "0",
+                                            "MaxLOS": "0",
+                                            "Base": {
+                                                "AmountBeforeTax": "633",
+                                                "AmountAfterTax": "633",
+                                                "CurrencyCode": "GBP"
+                                            },
+                                            "Discount": {
+                                                "AmountBeforeTax": "633",
+                                                "AmountAfterTax": "633",
+                                                "CurrencyCode": "GBP"
+                                            },
+                                            "TPA_Extensions": {
+                                                "PriceBreakdown": {
+                                                    "Adult": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Child": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Discount": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Supplement": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Tax": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "PaxRate": {
+                                                        "AmountBeforeTax": "0",
+                                                        "AmountAfterTax": "0",
+                                                        "CurrencyCode": "GBP"
+                                                    }
+                                                },
+                                                "BeddingConfiguration": {
+                                                    "Code": "0"
+                                                }
+                                            },
+                                            "CancelPolicies": {
+                                                "CancelPolicyIndicator": "true",
+                                                "CancelPenalty": [
+                                                    {
+                                                        "NonRefundable": "false",
+                                                        "Deadline": {
+                                                            "OffsetTimeUnit": "Day",
+                                                            "OffsetUnitMultiplier": "10",
+                                                            "OffsetDropTime": "BeforeArrival"
+                                                        },
+                                                        "AmountPercent": {
+                                                            "Percent": "50"
+                                                        },
+                                                        "PenaltyDescription": {
+                                                            "Name": "50%"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "Total": {
+                                                "AmountBeforeTax": "633",
+                                                "AmountAfterTax": "633",
+                                                "CurrencyCode": "GBP"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "RoomRateDescription": [
+                                    {
+                                        "Name": "RatePlanDescription"
+                                    },
+                                    {
+                                        "Name": "EssentialInfo"
+                                    },
+                                    {
+                                        "Name": "MealPlanInfo"
+                                    },
+                                    {
+                                        "Name": "RoomIndex_1",
+                                        "Text": "1"
+                                    }
+                                ],
+                                "Total": {
+                                    "AmountBeforeTax": "610",
+                                    "AmountAfterTax": "610",
+                                    "CurrencyCode": "GBP",
+                                    "Taxes": {
+                                        "Tax": {
+                                            "Type": "Notax",
+                                            "TAXId": "4",
+                                            "Code": "5% (VAT on Expenses)",
+                                            "Amount": "0",
+                                            "TPA_Extensions": {
+                                                "TaxComponents": {
+                                                    "TaxComponent": {
+                                                        "TaxComponentID": "4",
+                                                        "Name": "SGST",
+                                                        "Amount": "26.190476190476190476190476190"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "TPA_Extensions": {
+                                            "AccountType": {
+                                                "AccountTypeID": "3",
+                                                "Code": "270",
+                                                "Name": "Interest Income",
+                                                "Type": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "Agent": {
+                                    "AgentNetPrice": "610",
+                                    "AgentCommission": "10",
+                                    "AgentCommissionToPay": "10",
+                                    "CurrencyCode": "GBP",
+                                    "TaxOnCommission": {
+                                        "Taxes": {
+                                            "Tax": {
+                                                "Type": "Exclusive",
+                                                "TAXId": "4",
+                                                "Code": "5% (VAT on Expenses)",
+                                                "Amount": "0.50",
+                                                "TPA_Extensions": {
+                                                    "TaxComponents": {
+                                                        "TaxComponent": {
+                                                            "TaxComponentID": "4",
+                                                            "Name": "SGST",
+                                                            "Amount": "0.50"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "ServiceRPHs": {
+                                    "ServiceRPH": {
+                                        "RPH": "1"
+                                    }
+                                },
+                                "GuestCounts": {
+                                    "GuestCount": {
+                                        "AgeQualifyingCode": "10",
+                                        "Count": "2"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "TimeSpan": {
+                        "Start": "2021-12-31",
+                        "End": "2022-01-01"
+                    },
+                    "Total": {
+                        "AmountBeforeTax": "633",
+                        "AmountAfterTax": "633",
+                        "CurrencyCode": "GBP",
+                        "AdditionalFeesExcludedIndicator": "false"
+                    },
+                    "BasicPropertyInfo": {
+                        "HotelCode": "NOAPF",
+                        "HotelCityCode": "12128",
+                        "HotelName": "Hotel Test Pruebas Travelgate",
+                        "CurrencyCode": "EUR",
+                        "HotelCodeContext": "HRS",
+                        "Address": {
+                            "CityName": "Grand Bay",
+                            "CountryName": {
+                                "Code": "MU",
+                                "text": "Mauritius"
+                            }
+                        },
+                        "VendorMessages": {
+                            "VendorMessage": [
+                                {
+                                    "InfoType": "1",
+                                    "SubSection": {
+                                        "SubTitle": "Hotel Description",
+                                        "Paragraph": {
+                                            "ImageUrl": "http://localhost:2020/securecencontrol/Images/HotelImageGallery/List/9470561_xl_rsz_02022021113355762.jpg"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "Award": {
+                            "Rating": "2"
+                        }
+                    },
+                    "TPA_Extensions": {
+                        "Meals": [
+                            {
+                                "Meal": {
+                                    "MealCategory": "All inclusive",
+                                    "MealCategoryCode": "1",
+                                    "Name": "All inclusive",
+                                    "Code": "1",
+                                    "Breakfast": "false",
+                                    "Lunch": "false",
+                                    "Dinner": "false"
+                                }
+                            }
+                        ],
+                        "HotelArea": {
+                            "Code": "Grand Bay",
+                            "Name": "Grand Bay"
+                        },
+                        "HotelURL": {
+                            "seoURL": "the-westin-grand-bay-resort"
+                        }
+                    },
+                    "Reference": {
+                        "ID": "520",
+                        "ID_Context": "SUPPLIER",
+                        "CompanyName": {
+                            "CompanyShortName": "the westin grand bay resort and spa",
+                            "Code": "NOAPF"
+                        }
+                    }
+                },
+                {
+                    "RPH": "907",
+                    "RoomTypes": {
+                        "RoomType": [
+                            {
+                                "NumberOfUnits": "1",
+                                "RoomTypeCode": "33623",
+                                "RoomID": "33623",
+                                "Occupancy": {
+                                    "MinOccupancy": "1",
+                                    "MaxOccupancy": "3"
+                                },
+                                "RoomDescription": {
+                                    "Text": [
+                                        "Single"
+                                    ]
+                                }
+                            }
+                        ]
+                    },
+                    "RatePlans": {
+                        "RatePlan": [
+                            {
+                                "RatePlanCode": "DEFAULT",
+                                "RatePlanName": "Default Rate Plan",
+                                "RatePlanInclusions": {
+                                    "TaxInclusive": "true",
+                                    "RatePlanInclusionDesciption": {
+                                        "TaxInclusive": "true",
+                                        "Text": [
+                                            "All Taxes Are Included In Rates"
+                                        ]
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "RoomRates": {
+                        "RoomRate": [
+                            {
+                                "NumberOfUnits": "99",
+                                "BookingCode": "33623-20714-10519",
+                                "RoomTypeCode": "33623",
+                                "RoomID": "33623",
+                                "RatePlanCode": "DEFAULT",
+                                "RatePlanID": "20714",
+                                "AvailabilityStatus": "AvailableForSale",
+                                "PromotionCode": "10519",
+                                "Rates": {
+                                    "Rate": [
+                                        {
+                                            "EffectiveDate": "2022-11-03",
+                                            "ExpireDate": "2022-11-03",
+                                            "RateTimeUnit": "Day",
+                                            "ChargeType": "1",
+                                            "MinLOS": "0",
+                                            "MaxLOS": "0",
+                                            "Base": {
+                                                "AmountBeforeTax": "633",
+                                                "AmountAfterTax": "633",
+                                                "CurrencyCode": "GBP"
+                                            },
+                                            "Discount": {
+                                                "AmountBeforeTax": "633",
+                                                "AmountAfterTax": "633",
+                                                "CurrencyCode": "GBP"
+                                            },
+                                            "TPA_Extensions": {
+                                                "PriceBreakdown": {
+                                                    "Adult": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Child": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Discount": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Supplement": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "Tax": {
+                                                        "AmountBeforeTax": "633",
+                                                        "AmountAfterTax": "633",
+                                                        "CurrencyCode": "GBP"
+                                                    },
+                                                    "PaxRate": {
+                                                        "AmountBeforeTax": "0",
+                                                        "AmountAfterTax": "0",
+                                                        "CurrencyCode": "GBP"
+                                                    }
+                                                },
+                                                "BeddingConfiguration": {
+                                                    "Code": "0"
+                                                }
+                                            },
+                                            "CancelPolicies": {
+                                                "CancelPolicyIndicator": "true",
+                                                "CancelPenalty": [
+                                                    {
+                                                        "NonRefundable": "false",
+                                                        "Deadline": {
+                                                            "OffsetTimeUnit": "Day",
+                                                            "OffsetUnitMultiplier": "10",
+                                                            "OffsetDropTime": "BeforeArrival"
+                                                        },
+                                                        "AmountPercent": {
+                                                            "Percent": "50"
+                                                        },
+                                                        "PenaltyDescription": {
+                                                            "Name": "50%"
+                                                        }
+                                                    }
+                                                ]
+                                            },
+                                            "Total": {
+                                                "AmountBeforeTax": "633",
+                                                "AmountAfterTax": "633",
+                                                "CurrencyCode": "GBP"
+                                            }
+                                        }
+                                    ]
+                                },
+                                "RoomRateDescription": [
+                                    {
+                                        "Name": "RatePlanDescription"
+                                    },
+                                    {
+                                        "Name": "EssentialInfo"
+                                    },
+                                    {
+                                        "Name": "MealPlanInfo"
+                                    },
+                                    {
+                                        "Name": "RoomIndex_1",
+                                        "Text": "1"
+                                    }
+                                ],
+                                "Total": {
+                                    "AmountBeforeTax": "610",
+                                    "AmountAfterTax": "610",
+                                    "CurrencyCode": "GBP",
+                                    "Taxes": {
+                                        "Tax": {
+                                            "Type": "Notax",
+                                            "TAXId": "4",
+                                            "Code": "5% (VAT on Expenses)",
+                                            "Amount": "0",
+                                            "TPA_Extensions": {
+                                                "TaxComponents": {
+                                                    "TaxComponent": {
+                                                        "TaxComponentID": "4",
+                                                        "Name": "SGST",
+                                                        "Amount": "26.190476190476190476190476190"
+                                                    }
+                                                }
+                                            }
+                                        },
+                                        "TPA_Extensions": {
+                                            "AccountType": {
+                                                "AccountTypeID": "3",
+                                                "Code": "270",
+                                                "Name": "Interest Income",
+                                                "Type": ""
+                                            }
+                                        }
+                                    }
+                                },
+                                "Agent": {
+                                    "AgentNetPrice": "610",
+                                    "AgentCommission": "10",
+                                    "AgentCommissionToPay": "10",
+                                    "CurrencyCode": "GBP",
+                                    "TaxOnCommission": {
+                                        "Taxes": {
+                                            "Tax": {
+                                                "Type": "Exclusive",
+                                                "TAXId": "4",
+                                                "Code": "5% (VAT on Expenses)",
+                                                "Amount": "0.50",
+                                                "TPA_Extensions": {
+                                                    "TaxComponents": {
+                                                        "TaxComponent": {
+                                                            "TaxComponentID": "4",
+                                                            "Name": "SGST",
+                                                            "Amount": "0.50"
+                                                        }
+                                                    }
+                                                }
+                                            }
+                                        }
+                                    }
+                                },
+                                "ServiceRPHs": {
+                                    "ServiceRPH": {
+                                        "RPH": "1"
+                                    }
+                                },
+                                "GuestCounts": {
+                                    "GuestCount": {
+                                        "AgeQualifyingCode": "10",
+                                        "Count": "2"
+                                    }
+                                }
+                            }
+                        ]
+                    },
+                    "TimeSpan": {
+                        "Start": "2021-12-31",
+                        "End": "2022-01-01"
+                    },
+                    "Total": {
+                        "AmountBeforeTax": "633",
+                        "AmountAfterTax": "633",
+                        "CurrencyCode": "GBP",
+                        "AdditionalFeesExcludedIndicator": "false"
+                    },
+                    "BasicPropertyInfo": {
+                        "HotelCode": "NOAPF",
+                        "HotelCityCode": "12128",
+                        "HotelName": "Hotel Test Pruebas Travelgate 2",
+                        "CurrencyCode": "EUR",
+                        "HotelCodeContext": "HRS",
+                        "Address": {
+                            "CityName": "Grand Bay",
+                            "CountryName": {
+                                "Code": "MU",
+                                "text": "Mauritius"
+                            }
+                        },
+                        "VendorMessages": {
+                            "VendorMessage": [
+                                {
+                                    "InfoType": "1",
+                                    "SubSection": {
+                                        "SubTitle": "Hotel Description",
+                                        "Paragraph": {
+                                            "ImageUrl": "http://localhost:2020/securecencontrol/Images/HotelImageGallery/List/9470561_xl_rsz_02022021113355762.jpg"
+                                        }
+                                    }
+                                }
+                            ]
+                        },
+                        "Award": {
+                            "Rating": "2"
+                        }
+                    },
+                    "TPA_Extensions": {
+                        "Meals": [
+                            {
+                                "Meal": {
+                                    "MealCategory": "All inclusive",
+                                    "MealCategoryCode": "1",
+                                    "Name": "All inclusive",
+                                    "Code": "1",
+                                    "Breakfast": "false",
+                                    "Lunch": "false",
+                                    "Dinner": "false"
+                                }
+                            }
+                        ],
+                        "HotelArea": {
+                            "Code": "Grand Bay",
+                            "Name": "Grand Bay"
+                        },
+                        "HotelURL": {
+                            "seoURL": "the-westin-grand-bay-resort"
+                        }
+                    },
+                    "Reference": {
+                        "ID": "520",
+                        "ID_Context": "SUPPLIER",
+                        "CompanyName": {
+                            "CompanyShortName": "the westin grand bay resort and spa",
+                            "Code": "NOAPF"
+                        }
+                    }
+                }
+            ]
+        },
+        "Services": {
+            "Service": [
+                {
+                    "RequiredInd": "false",
+                    "ID": "10226",
+                    "ServiceRPH": "1",
+                    "ServiceInventoryCode": "33623",
+                    "RatePlanCode": "20714",
+                    "Inclusive": "false",
+                    "IsServiceOfferDependent": "false",
+                    "Price": {
+                        "EffectiveDate": "2021-12-31",
+                        "ExpireDate": "2021-12-31",
+                        "Base": {
+                            "AmountBeforeTax": "200.000000",
+                            "AmountAfterTax": "200.000000"
+                        },
+                        "Agent": {
+                            "AgentNetPrice": "220.0000",
+                            "AgentCommission": "0",
+                            "AgentCommissionToPay": "0",
+                            "CurrencyCode": "GBP"
+                        },
+                        "Discount": {
+                            "AmountBeforeTax": "0.000000",
+                            "AmountAfterTax": "0.000000"
+                        },
+                        "Total": {
+                            "AmountBeforeTax": "209.5238",
+                            "AmountAfterTax": "220.0000",
+                            "CurrencyCode": "GBP",
+                            "Taxes": {
+                                "Tax": {
+                                    "Type": "Inclusive",
+                                    "TAXId": "4",
+                                    "Code": "5% (VAT on Expenses)",
+                                    "Amount": "10.47619047619047619047619048",
+                                    "TPA_Extensions": {
+                                        "TaxComponents": {
+                                            "TaxComponent": {
+                                                "TaxComponentID": "4",
+                                                "Name": "SGST",
+                                                "Amount": "10.476190476190476190476190476"
+                                            }
+                                        }
+                                    }
+                                },
+                                "TPA_Extensions": {
+                                    "AccountType": {
+                                        "AccountTypeID": "3",
+                                        "Code": "270",
+                                        "Name": "Interest Income",
+                                        "Type": ""
+                                    }
+                                }
+                            }
+                        },
+                        "AdditionalCharges": {
+                            "AmountBeforeTax": "209.5238",
+                            "AmountAfterTax": "220.0000",
+                            "CurrencyCode": "GBP"
+                        }
+                    },
+                    "ServiceDetails": {
+                        "Comments": {
+                            "Comment": {
+                                "Name": "Delux Room - Upgrade"
+                            }
+                        }
+                    },
+                    "TPA_Extensions": {
+                        "PriceBreakdown": {
+                            "Adult": {
+                                "AmountBeforeTax": "220.000000",
+                                "AmountAfterTax": "220.000000",
+                                "CurrencyCode": "GBP"
+                            },
+                            "Child": {
+                                "AmountBeforeTax": "0",
+                                "AmountAfterTax": "0",
+                                "CurrencyCode": "GBP"
+                            }
+                        },
+                        "SupplementAddToBasicRate": {
+                            "AddToBasicRate": "false"
+                        }
+                    }
+                },
+                {
+                    "RequiredInd": "false",
+                    "ID": "10226",
+                    "ServiceRPH": "2",
+                    "ServiceInventoryCode": "33624",
+                    "RatePlanCode": "20714",
+                    "Inclusive": "false",
+                    "IsServiceOfferDependent": "false",
+                    "Price": {
+                        "EffectiveDate": "2021-12-31",
+                        "ExpireDate": "2021-12-31",
+                        "Base": {
+                            "AmountBeforeTax": "200.000000",
+                            "AmountAfterTax": "200.000000"
+                        },
+                        "Agent": {
+                            "AgentNetPrice": "220.0000",
+                            "AgentCommission": "0",
+                            "AgentCommissionToPay": "0",
+                            "CurrencyCode": "GBP"
+                        },
+                        "Discount": {
+                            "AmountBeforeTax": "0.000000",
+                            "AmountAfterTax": "0.000000"
+                        },
+                        "Total": {
+                            "AmountBeforeTax": "209.5238",
+                            "AmountAfterTax": "220.0000",
+                            "CurrencyCode": "GBP",
+                            "Taxes": {
+                                "Tax": {
+                                    "Type": "Inclusive",
+                                    "TAXId": "4",
+                                    "Code": "5% (VAT on Expenses)",
+                                    "Amount": "10.47619047619047619047619048",
+                                    "TPA_Extensions": {
+                                        "TaxComponents": {
+                                            "TaxComponent": {
+                                                "TaxComponentID": "4",
+                                                "Name": "SGST",
+                                                "Amount": "10.476190476190476190476190476"
+                                            }
+                                        }
+                                    }
+                                },
+                                "TPA_Extensions": {
+                                    "AccountType": {
+                                        "AccountTypeID": "3",
+                                        "Code": "270",
+                                        "Name": "Interest Income",
+                                        "Type": ""
+                                    }
+                                }
+                            }
+                        },
+                        "AdditionalCharges": {
+                            "AmountBeforeTax": "209.5238",
+                            "AmountAfterTax": "220.0000",
+                            "CurrencyCode": "GBP"
+                        }
+                    },
+                    "ServiceDetails": {
+                        "Comments": {
+                            "Comment": {
+                                "Name": "Delux Room - Upgrade"
+                            }
+                        }
+                    },
+                    "TPA_Extensions": {
+                        "PriceBreakdown": {
+                            "Adult": {
+                                "AmountBeforeTax": "220.000000",
+                                "AmountAfterTax": "220.000000",
+                                "CurrencyCode": "GBP"
+                            },
+                            "Child": {
+                                "AmountBeforeTax": "0",
+                                "AmountAfterTax": "0",
+                                "CurrencyCode": "GBP"
+                            }
+                        },
+                        "SupplementAddToBasicRate": {
+                            "AddToBasicRate": "false"
+                        }
+                    }
+                }
+            ]
+        }
+    }
+}
